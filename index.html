@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Nexa helps ambitious teams make their best work happen with less busywork."
+    />
+    <meta name="theme-color" content="#f8f9f6" />
+    <title>Nexa — Make room for your best work</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navigation container" aria-label="Main navigation">
+        <a class="brand" href="#" aria-label="Nexa home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32" fill="none">
+              <path d="M7 23.5 16 7l9 16.5h-7.1L16 18.8l-1.9 4.7H7Z" fill="currentColor" />
+              <circle cx="23.2" cy="8.7" r="2.3" fill="#B5F36D" />
+            </svg>
+          </span>
+          <span>nexa</span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+          <span class="sr-only">Toggle navigation</span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-links" id="nav-links">
+          <a href="#product">Product</a>
+          <a href="#about">About</a>
+          <a href="#stories">Stories</a>
+          <a class="nav-mobile-cta" href="mailto:hello@nexa.example">Talk to us</a>
+        </div>
+        <a class="button button-dark nav-cta" href="mailto:hello@nexa.example">
+          Talk to us <span aria-hidden="true">↗</span>
+        </a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero container" id="about">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> A calmer way to work</p>
+          <h1>Make room for<br />your <span>best work.</span></h1>
+          <p class="hero-description">
+            The little things add up. Nexa brings your projects, people, and plans
+            together so your team can focus on what matters.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="mailto:hello@nexa.example">
+              Find your flow <span aria-hidden="true">↗</span>
+            </a>
+            <a class="text-link" href="#product">See how it works <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="social-proof">
+            <div class="avatar-stack" aria-hidden="true">
+              <span class="avatar avatar-one">J</span>
+              <span class="avatar avatar-two">M</span>
+              <span class="avatar avatar-three">A</span>
+              <span class="avatar avatar-four">S</span>
+            </div>
+            <p><strong>2,400+</strong> teams found their flow</p>
+          </div>
+        </div>
+
+        <div class="hero-art" aria-label="A preview of the Nexa project dashboard">
+          <div class="art-glow"></div>
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="dashboard-card">
+            <div class="dashboard-top">
+              <div class="window-dots" aria-hidden="true"><i></i><i></i><i></i></div>
+              <span>Workspace / Overview</span>
+              <span class="dashboard-menu" aria-hidden="true">···</span>
+            </div>
+            <div class="dashboard-content">
+              <div class="dashboard-heading">
+                <div>
+                  <p class="dashboard-date">MONDAY, OCTOBER 21</p>
+                  <h2>Good morning, Alex <span>✳</span></h2>
+                </div>
+                <div class="dashboard-user" aria-hidden="true">A</div>
+              </div>
+              <div class="progress-card">
+                <div class="progress-title">
+                  <span class="progress-icon" aria-hidden="true">↗</span>
+                  <span>Product launch</span>
+                  <span class="progress-percent">72%</span>
+                </div>
+                <div class="progress-track"><span></span></div>
+                <div class="progress-footer"><span>18 of 25 tasks done</span><span>Due in 6 days</span></div>
+              </div>
+              <div class="task-heading"><strong>Up next</strong><span>View all <span aria-hidden="true">→</span></span></div>
+              <div class="task-row">
+                <span class="task-check task-check-done" aria-hidden="true">✓</span>
+                <span class="task-label task-complete">Finalize landing page copy</span>
+                <span class="task-tag tag-green">Today</span>
+              </div>
+              <div class="task-row">
+                <span class="task-check" aria-hidden="true"></span>
+                <span class="task-label">Review product illustrations</span>
+                <span class="task-tag tag-yellow">Today</span>
+              </div>
+              <div class="task-row">
+                <span class="task-check" aria-hidden="true"></span>
+                <span class="task-label">Share launch plan with team</span>
+                <span class="task-tag tag-gray">Tomorrow</span>
+              </div>
+            </div>
+          </div>
+          <div class="floating-note note-top"><span class="note-icon">✳</span><span><strong>Nice momentum!</strong><small>You're on a roll this week</small></span></div>
+          <div class="floating-note note-bottom"><span class="note-avatar">M</span><span><strong>Maya left a note</strong><small>“Love where this is going.”</small></span></div>
+          <span class="sparkle sparkle-one" aria-hidden="true">✳</span>
+          <span class="sparkle sparkle-two" aria-hidden="true">✦</span>
+        </div>
+      </section>
+
+      <section class="trusted container" id="stories" aria-label="Teams that work with Nexa">
+        <p>GOOD WORK, TOGETHER WITH</p>
+        <div class="company-logos" aria-label="Company names">
+          <span class="logo-word logo-north">northstar</span>
+          <span class="logo-word logo-kin">kinfolk<span>®</span></span>
+          <span class="logo-word logo-form">FORM<span class="logo-shape">◈</span></span>
+          <span class="logo-word logo-common">common ground</span>
+          <span class="logo-word logo-shift">shift<span class="shift-dot">.</span></span>
+        </div>
+      </section>
+
+      <section class="features-section" id="product">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Less juggling, more doing</p>
+            <h2>Everything in sync.<br /><span>Nothing in the way.</span></h2>
+            <p>Good work happens when the busywork gets out of the way. Here's how Nexa helps.</p>
+          </div>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <div class="feature-icon icon-lime" aria-hidden="true">↗</div>
+              <h3>See the whole picture</h3>
+              <p>Bring plans, projects, and progress into one clear view. No more digging for the latest.</p>
+              <a href="mailto:hello@nexa.example">Explore projects <span aria-hidden="true">→</span></a>
+            </article>
+            <article class="feature-card">
+              <div class="feature-icon icon-peach" aria-hidden="true">◎</div>
+              <h3>Find your next step</h3>
+              <p>Turn big ideas into doable steps, with just enough structure to keep the good work moving.</p>
+              <a href="mailto:hello@nexa.example">Explore workflows <span aria-hidden="true">→</span></a>
+            </article>
+            <article class="feature-card">
+              <div class="feature-icon icon-lavender" aria-hidden="true">✳</div>
+              <h3>Make space for people</h3>
+              <p>Keep conversations close to the work, so thoughtful collaboration feels effortless.</p>
+              <a href="mailto:hello@nexa.example">Explore teamwork <span aria-hidden="true">→</span></a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="closing container">
+        <div class="closing-copy">
+          <p class="eyebrow"><span class="status-dot"></span> Your next chapter starts here</p>
+          <h2>Good work feels<br /><span>better together.</span></h2>
+          <p>Get your team on the same page—and make the space to do something great.</p>
+          <a class="button button-dark" href="mailto:hello@nexa.example">
+            Let's talk <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+        <div class="closing-decoration" aria-hidden="true">
+          <div class="closing-orbit"></div>
+          <div class="closing-sun"></div>
+          <span class="closing-star">✳</span>
+          <span class="closing-label">Make it<br />meaningful.</span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a class="brand footer-brand" href="#" aria-label="Nexa home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32" fill="none">
+              <path d="M7 23.5 16 7l9 16.5h-7.1L16 18.8l-1.9 4.7H7Z" fill="currentColor" />
+              <circle cx="23.2" cy="8.7" r="2.3" fill="#B5F36D" />
+            </svg>
+          </span>
+          <span>nexa</span>
+        </a>
+        <p>Make room for your best work.</p>
+        <div class="footer-meta"><a href="mailto:hello@nexa.example">Say hello</a><span>© <span id="year">2026</span> Nexa Studio</span></div>
+      </div>
+    </footer>
+  </body>
+</html>
